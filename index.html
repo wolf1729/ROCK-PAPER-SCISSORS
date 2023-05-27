@@ -3,9 +3,19 @@
     <head>
         <title>ROCK PAPER SCISSORS</title>
         <link rel="stylesheet" href="style.css">
-        <script src="logic.js"></script>
+        <script src="logic.js" defer></script>
     </head>
     <body>
-        <div></div>
+        <h2>Rock Paper Scissors</h2>
+        <div class="userOptionButtons">
+            <button id="rock" class="option">Rock</button>
+            <button id="paper" class="option">Paper</button>
+            <button id="scissors" class="option">Scissors</button>
+        </div>
+        <p class="resultstring">Result : <span id="result"></span></p>
+        <div class="result">
+            <p>Player Score : <span id="pscore">0</span></p>
+            <p>Computer Score : <span id="cscore">0</span></p>
+        </div>
     </body>
 </html>

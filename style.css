@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../ROCK-PAPER-SCISSORS/RESOURCES/backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h2{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 75px;
+    padding: 50px;
+}
+
+.userOptionButtons{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 30px 50px;
+    font-size: 20px;
+}
+
+button:hover{
+    color: palevioletred;
+}
+
+.result{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.resultstring{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+
